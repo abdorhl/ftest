@@ -21,7 +21,7 @@
       git:
         repo: 'https://github.com/abdorhl/ftest.git'
         dest: '/home/kali/ftest'
-        version: 'main'
+        version: 'master'
 
     - name: Install Python packages from requirements.txt
       command: "/home/kali/venv/bin/pip install -r /home/kali/ftest/requirements.txt"
